@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+<ImageView android:id="@+id/MainLogo" android:layout_width="230px" android:layout_height="60px" android:layout_gravity="center_horizontal" android:src="@drawable/logo"></ImageView>
+<Button android:text="Add New Item" android:id="@+id/AddItemButton" android:layout_width="200px" android:layout_height="60px" android:layout_gravity="center_horizontal"></Button>
+<Button android:text="View All Items" android:id="@+id/ViewAllItemsButton" android:layout_width="200px" android:layout_height="60px" android:layout_gravity="center_horizontal"></Button>
+<Button android:text="Remove Item" android:id="@+id/RemoveItemButton" android:layout_width="200px" android:layout_height="60px" android:layout_gravity="center_horizontal"></Button>
+<Button android:id="@+id/EditItemButton" android:layout_width="200px" android:layout_height="60px" android:text="Edit Item" android:layout_gravity="center_horizontal"></Button>
+<Button android:layout_height="60px" android:layout_width="200px" android:text="Search" android:layout_gravity="center_horizontal" android:id="@+id/SearchButton"></Button>
+<Button android:layout_height="60px" android:layout_width="200px" android:text="Sync" android:layout_gravity="center_horizontal" android:id="@+id/SyncButton"></Button>
+
+
+
+
+
+</LinearLayout>

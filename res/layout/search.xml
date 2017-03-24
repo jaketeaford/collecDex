@@ -1,0 +1,54 @@
+
+<AbsoluteLayout android:id="@+id/AbsoluteLayout01" android:layout_width="fill_parent" android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+
+
+
+
+
+
+
+<EditText android:text="" android:layout_width="150px" android:id="@+id/Name_Search_Box" android:layout_height="60px" android:layout_x="16dip" android:layout_y="45dip"></EditText>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<Button android:text="Go" android:id="@+id/Search_Go_Button" android:layout_width="60px" android:layout_height="60px" android:layout_x="225dip" android:layout_y="44dip"></Button>
+
+
+
+
+
+<TextView android:id="@+id/SearchResultsLabel" android:layout_width="200px" android:layout_height="70px" android:text="Search Results" android:layout_x="99dip" android:layout_y="128dip"></TextView>
+
+
+
+
+
+
+
+
+<TextView android:id="@+id/SearchResultsText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@+id/TextView01" android:layout_x="91dip" android:layout_y="177dip"></TextView>
+</AbsoluteLayout>

@@ -1,0 +1,65 @@
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_height="fill_parent" android:layout_width="fill_parent" android:id="@+id/AbsoluteLayout01" android:visibility="visible">
+
+<TextView android:text="" android:layout_height="wrap_content" android:id="@+id/RecordToEditBox" android:layout_width="wrap_content" android:layout_x="50dip" android:layout_y="28dip"></TextView>
+
+
+
+
+
+<CheckBox android:text="" android:id="@+id/EditDescCheckbox" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_x="72dip" android:layout_y="218dip"></CheckBox>
+
+
+
+
+
+
+
+<EditText android:text="" android:layout_height="35px" android:layout_width="150px" android:id="@+id/EditNameTextbox" android:layout_x="117dip" android:layout_y="125dip"></EditText>
+<EditText android:text="" android:layout_height="35px" android:layout_width="150px" android:id="@+id/EditManfTextbox" android:layout_x="117dip" android:layout_y="180dip"></EditText>
+<EditText android:text="" android:layout_height="35px" android:layout_width="150px" android:id="@+id/EditDescTextbox" android:layout_x="117dip" android:layout_y="235dip"></EditText>
+
+<CheckBox android:text="" android:id="@+id/EditManfCheckbox" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_x="73dip" android:layout_y="160dip"></CheckBox>
+
+<CheckBox android:text="" android:id="@+id/EditNameCheckbox" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_x="72dip" android:layout_y="106dip"></CheckBox>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<Button android:id="@+id/DoEditButton" android:layout_height="50px" android:text="Edit Item" android:layout_width="150px" android:layout_x="60dip" android:layout_y="300dip"></Button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<TextView android:text="Name" android:layout_height="wrap_content" android:id="@+id/EditNameLabel" android:layout_width="wrap_content" android:layout_x="15dip" android:layout_y="136dip"></TextView>
+<TextView android:text="Manf." android:layout_height="wrap_content" android:id="@+id/EditManfLabel" android:layout_x="15dip" android:layout_width="wrap_content" android:layout_y="190dip"></TextView>
+
+
+
+
+
+
+
+
+
+
+<TextView android:text="Desc." android:layout_height="wrap_content" android:id="@+id/TextView01" android:layout_width="wrap_content" android:layout_x="15dip" android:layout_y="245dip"></TextView>
+</AbsoluteLayout>

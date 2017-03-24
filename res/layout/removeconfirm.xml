@@ -1,0 +1,11 @@
+<AbsoluteLayout android:id="@+id/AbsoluteLayout01" android:layout_width="fill_parent" android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+
+<Button android:text="Yes" android:id="@+id/RemoveYesButton" android:layout_width="100px" android:layout_height="70px" android:layout_x="50dip" android:layout_y="270dip"></Button>
+
+<TextView android:text="" android:layout_width="wrap_content" android:id="@+id/RecordToRemove" android:layout_height="wrap_content" android:layout_x="50dip" android:layout_y="83dip"></TextView>
+
+<TextView android:text="Remove This Record?" android:layout_width="wrap_content" android:id="@+id/TextView02" android:layout_height="wrap_content" android:layout_x="94dip" android:layout_y="214dip"></TextView>
+
+<Button android:text="No" android:id="@+id/RemoveNoButton" android:layout_width="100px" android:layout_height="70px" android:layout_x="170dip" android:layout_y="271dip"></Button>
+<ImageView android:layout_x="210dip" android:id="@+id/removeimageview" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_y="61dip"></ImageView>
+</AbsoluteLayout>

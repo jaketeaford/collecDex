@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <TextView android:text="Name" android:id="@+id/nametext" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center_horizontal"></TextView>
+    <EditText android:text="" android:id="@+id/additem_name" android:layout_width="200px" android:layout_height="70px" android:layout_gravity="center_horizontal"></EditText>
+    <TextView android:text="Manufacturer" android:id="@+id/manftext" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center_horizontal"></TextView>
+<EditText android:text="" android:id="@+id/additem_manf" android:layout_width="200px" android:layout_height="70px" android:layout_gravity="center_horizontal"></EditText>
+<TextView android:text="Condition" android:id="@+id/nametext" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center_horizontal"></TextView>
+<EditText android:text="" android:id="@+id/additem_cond" android:layout_width="200px" android:layout_height="70px" android:layout_gravity="center_horizontal"></EditText>
+<Button android:text="Take Picture" android:id="@+id/additem_takepicture_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center_horizontal"></Button>
+<Button android:text="Add to Database" android:id="@+id/additem_add_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center_horizontal"></Button>
+
+</LinearLayout>
